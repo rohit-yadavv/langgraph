@@ -1,0 +1,12 @@
+[project]
+name = "3-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain[google-genai]>=0.3.27",
+    "langgraph>=0.6.8",
+    "langsmith>=0.4.32",
+]
